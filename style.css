@@ -1,0 +1,102 @@
+body {
+    font-family: 'Comic Sans MS','Quicksand', 'Poppins', 'Century Gothic', 'Trebuchet MS', 'Palatino Linotype', 'Book Antiqua', 'Georgia', 'Poppins', 'Trebuchet MS', sans-serif;
+    background-color: #FFF5F7; 
+    color: #A67B5B; 
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #FFC0CB; 
+    color: #8B5E3C; 
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 3px solid #E3B89F; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #B98E76; 
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #8B5E3C; 
+}
+
+
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+
+.profile-container {
+    background-color: #FFE4E6; 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    max-width: 500px;
+    width: 90%;
+}
+
+
+.profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid #D2B48C; 
+    margin-bottom: 15px;
+}
+
+
+.social-links {
+    margin: 15px 0;
+}
+
+.social-icon {
+    width: 35px;
+    border-radius: 50%;
+    margin: 0 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); 
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #FFE4E6; 
+    color: #8B5E3C;
+    font-weight: bold;
+    border-top: 3px solid #E3B89F;
+    font-size: 10px;
+}
+
+a {
+    color: inherit; /* Menggunakan warna teks default */
+    text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+a:hover {
+    color: inherit; /* Pastikan warna tetap sama saat hover */
+}
